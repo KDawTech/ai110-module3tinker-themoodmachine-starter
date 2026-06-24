@@ -92,3 +92,29 @@ TRUE_LABELS = [
 #
 # Remember to keep them aligned:
 #   len(SAMPLE_POSTS) == len(TRUE_LABELS)
+
+SAMPLE_POSTS.extend([
+    "I finally finished my project and it actually works 😄",
+    "This update is trash, but the new design looks clean",
+    "I'm so tired but proud of myself",
+    "That movie was fire",
+    "I love getting stuck in traffic",
+    "Nothing happened today, just went to class",
+    "I'm not happy with the results",
+    "This food is sick 🔥",
+    "My phone died during work and I hated it",
+    "The meeting was okay, nothing special",
+])
+
+TRUE_LABELS.extend([
+    "positive",
+    "mixed",
+    "mixed",
+    "positive",
+    "mixed",
+    "neutral",
+    "negative",
+    "positive",
+    "negative",
+    "neutral",
+])
